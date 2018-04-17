@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Pick a number!</title>
+</head>
+<body>
+<h1>You chose the number <span th:text="${number}"></span></h1>
+<h1>The die rolled a <span th:text="${die}"></span></h1>
+
+<div th:replace="patials/footer  :: footer"></div>
+</body>
+</html>
