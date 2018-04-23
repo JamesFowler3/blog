@@ -4,10 +4,8 @@
 <body>
 <div th:replace="partials/navbar :: navbar"></div>
 <main class="container">
-    <h1>My Blog</h1>
-    <div>
-        <img class = "image-sizing" src="/images/IMG_0853.jpg"/>
-    </div>
+    <h3><span th:text="${post.title}"></span></h3>
+    <p><span th:text="${post.body}"></span></p>
 </main>
 </body>
 </html>
